@@ -3,8 +3,8 @@ import sys, os
 sys.path.append(os.pardir) # 부모 디렉터리의 파일을 가져올 수 있도록 설정
 import numpy as np
 from collections import OrderedDict
-from common.layers import *
-from common.gradient import numerical_gradient
+from DLS_git_clone.common.layers import *
+from DLS_git_clone.common.gradient import numerical_gradient
 
 class MultiLayerNetExtend:
     """완전 연결 다층 신경망(확장판)
